@@ -38,4 +38,5 @@ public class OrderServiceTest {
         assertThat(order.calculatePrice()).isEqualTo(9000);
 
     }
+
 }
