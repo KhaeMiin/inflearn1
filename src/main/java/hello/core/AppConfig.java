@@ -36,6 +36,7 @@ public class AppConfig {//애플리케이션 전체를 설정하고 구성
     public OrderService orderService() {
         System.out.println("call AppConfig.orderService");
         return new OrderServiceImpl(memberRepository(), discountPolicy());//반환값에 (객체반환하는)메서드 입력
+//        return null;
     }
 
     @Bean
